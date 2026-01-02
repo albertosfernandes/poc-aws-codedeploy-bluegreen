@@ -1,0 +1,10 @@
+{
+    "name": "Fast API Development Container",
+    "image": "mcr.microsoft.com/devcontainers/base",
+    "features": {
+        "ghcr.io/dlouwers/devcontainer-features/devbox:1": {},
+        "ghcr.io/devcontainers/features/docker-in-docker:2": {}  
+
+    },
+    "postCreateCommand": "devbox install"
+}
