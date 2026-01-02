@@ -1,9 +1,9 @@
 {
     "name": "Fast API Development Container",
-    "image": "mcr.microsoft.com/devcontainers/base",
+    "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
     "features": {
-        "ghcr.io/dlouwers/devcontainer-features/devbox:1": {},
-        "ghcr.io/devcontainers/features/docker-in-docker:2": {}  
+        "ghcr.io/dlouwers/devcontainer-features/devbox": {},
+        "ghcr.io/devcontainers/features/docker-in-docker": {}  
 
     },
     "postCreateCommand": "devbox install"
